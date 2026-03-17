@@ -1,6 +1,7 @@
 AllCops:
   NewCops: enable
   TargetRubyVersion: 3.4
+  SuggestExtensions: false
 
 Style/Documentation:
   Enabled: false
@@ -31,3 +32,6 @@ Metrics/BlockLength:
 Style/OneClassPerFile:
   Exclude:
     - "spec/spec_helper.rb"
+
+Gemspec/DevelopmentDependencies:
+  Enabled: false

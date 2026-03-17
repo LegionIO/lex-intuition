@@ -251,7 +251,7 @@ PATH
 PATH
   remote: .
   specs:
-    lex-intuition (0.1.0)
+    lex-intuition (0.1.1)
 
 GEM
   remote: https://rubygems.org/
